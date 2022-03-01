@@ -1,0 +1,60 @@
+.title {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  max-width: 300px;
+  position: relative;
+  margin-top: -18px;
+  border: 1px solid #e6edef;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mr-3 {
+  margin-right: 1rem;
+}
+.w-20 {
+  width: 20%;
+}
+.calender-widget img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+.card .card-body {
+  padding-top: 15px !important;
+}
+.card {
+  min-height: 300px;
+}
+/* Custom switch */
+
+.switch input {
+  position: absolute;
+  opacity: 0;
+}
+
+.switch {
+  display: inline-block;
+  font-size: 20px; /* 1 */
+  height: 1em !important;
+  width: 2em !important;
+  background: #bdb9a6;
+  border-radius: 1em;
+}
+
+.switch div {
+  height: 1em;
+  width: 1em;
+  border-radius: 1em;
+  background: #fff;
+  box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.switch input:checked + div {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
