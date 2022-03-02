@@ -1,3 +1,7 @@
+.btn-primary:focus {
+  background-color: white !important;
+  color: #f1881e !important;
+}
 .title {
   margin: 0 auto;
   text-align: center;
